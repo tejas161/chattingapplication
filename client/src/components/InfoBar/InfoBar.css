@@ -1,0 +1,49 @@
+.infoBar {
+  width: 100%;
+  height: 9rem;
+  background-color: #cbf3d0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.infoBar .leftInnerContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 3rem;
+  padding-left: 2rem;
+  width: 80%;
+}
+
+.infoBar .leftInnerContainer .img {
+  border-radius: 50%;
+  background-color: #52ec52;
+  width: 2.8rem;
+  height: 2.8rem;
+}
+
+.infoBar .leftInnerContainer h3 {
+  padding-left: 0.5rem;
+  font-size: 2.2rem;
+  font-weight: bold;
+}
+
+.infoBar .rightInnerContainer {
+  margin: auto 1.5rem;
+}
+
+.infoBar .rightInnerContainer .info-btn {
+  font-size: 1.4rem;
+  outline: none;
+  height: 4rem;
+  width: 9rem;
+  cursor: pointer;
+  border: 2px solid #e06b63;
+  background-color: #e78383;
+}
+
+.infoBar .rightInnerContainer .info-btn:hover {
+  background-color: #e9444c;
+}
+/*# sourceMappingURL=InfoBar.css.map */

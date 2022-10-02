@@ -1,0 +1,53 @@
+.infoBar{
+    width:100%;
+    height:9rem;
+    background-color: rgb(203, 243, 208);
+    display:flex;
+  
+
+    .leftInnerContainer{
+        display:flex;
+        padding-top:3rem;
+        padding-left:2rem;
+        width:80%;
+       
+          
+        .img {
+          
+            border-radius: 50%;
+            background-color:rgb(82, 236, 82);
+            width:2.8rem;
+            height:2.8rem;
+        }
+
+        h3{
+            padding-left: 0.5rem;
+          font-size:2.2rem;
+          font-weight: bold;
+        }
+    }
+
+
+    .rightInnerContainer{
+       
+        
+      margin:auto 1.5rem;
+
+      .info-btn{
+          font-size:1.4rem;
+         outline:none;
+         height:4rem;
+         width:9rem;
+         cursor: pointer;
+         border:2px solid rgb(224, 107, 99);
+         background-color: rgb(231, 131, 131);
+
+      }
+
+      .info-btn:hover{
+          background-color: rgb(233, 68, 76);
+      }
+
+    }
+}
+

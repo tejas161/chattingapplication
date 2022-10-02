@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+$gcolor:rgb(149, 218, 149);
+
+.navbar{
+    width:100%;
+    height:11rem;
+    background-color: $gcolor ;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+    .nav-img{
+        margin-right:0.4rem;
+        img{
+            width:9rem;
+            height:8rem;
+            border-radius:50%;
+            border:2px solid rgb(62, 182, 62);
+        }
+    }
+
+    .nav-header{
+        h3{
+            font-size:3rem;
+            font-family: 'Oswald', sans-serif;
+        }
+    }
+}
+
+
+.input-form{
+  background-color:rgb(221, 238, 227);
+  border:0.1rem solid rgb(188, 241, 188);
+  margin:0.8rem auto;
+  height:80vh;
+  width:80%;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+    .form-unit{
+        text-align: center;
+        width:100%;
+      
+        margin:1.8rem 0;
+
+        .user-name{
+             height:4rem;
+            width:60%;
+            font-size:2.2rem;
+            outline:none;
+            border:none;
+            border:0.2rem solid $gcolor;
+
+            &:hover{
+                border:0.2rem solid rgb(95, 190, 103);
+            }
+        }
+
+
+
+        .user-room{
+            font-size:2.2rem;
+            height:4rem;
+           width:60%;
+           outline:none;
+           border:none;
+           border:0.2rem solid $gcolor;
+
+           &:hover{
+               border:0.2rem solid rgb(95, 190, 103);
+           }
+       }
+
+       .submit-btn{
+           width:60%;
+           height:4.2rem;
+           font-size:2.4rem;
+           cursor:pointer;
+           outline:none;
+           border:none;
+           border:0.2rem solid $gcolor;
+           background-color:$gcolor;
+           font-family: 'Oswald', sans-serif;
+           
+
+           &:hover{
+               border:0.2rem solid rgb(95, 190, 103);
+           }
+       }
+    }
+}

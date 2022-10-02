@@ -1,0 +1,120 @@
+.body-container {
+  width: 100%;
+  height: 80vh;
+  border-bottom: 0.2rem solid #b8ebb8;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.body-container .left-body {
+  width: 20%;
+  height: 100%;
+  border-right: 1px solid #c8e6c8;
+  padding-top: 0.5rem;
+}
+
+.body-container .left-body h2 {
+  text-align: center;
+  margin-top: 0.5rem;
+  font-size: 1.6rem;
+}
+
+.body-container .right-body {
+  width: 80%;
+  height: 100%;
+}
+
+.body-container .right-body .text-messages {
+  width: 100%;
+  height: 85%;
+  padding: 5% 0;
+  overflow: auto;
+  -webkit-box-flex: 1;
+      -ms-flex: auto;
+          flex: auto;
+}
+
+.body-container .right-body .input-box {
+  width: 100%;
+  height: 15%;
+  background-color: #cbf3d0;
+}
+
+.active-people {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 0.5rem;
+}
+
+.active-people .img {
+  border-radius: 50%;
+  background-color: #52ec52;
+  width: 0.8rem;
+  height: 0.8rem;
+}
+
+.active-people p {
+  margin-left: 0.4rem;
+  font-size: 1.6rem;
+  color: blue;
+}
+
+.input-box {
+  padding: 2rem 0.6rem;
+}
+
+.input-box .input {
+  outline: none;
+  height: 5rem;
+  width: 85%;
+  border: 2px solid #adadeb;
+  font-size: 2rem;
+}
+
+.input-box .input:hover {
+  border: 2px solid #8282da;
+}
+
+.input-box .sendButton {
+  height: 5rem;
+  width: 15%;
+  font-size: 2rem;
+  background-color: #b1b1d1;
+  color: white;
+  outline: none;
+  border: 1px solid #adadeb;
+  cursor: pointer;
+}
+
+.input-box .sendButton:hover {
+  background-color: #4d4ddb;
+}
+
+#micro-phone {
+  color: #f55454;
+  font-size: 3.4rem;
+  position: relative;
+  right: 3.6rem;
+  width: 0;
+  top: 0.8rem;
+  cursor: pointer;
+}
+
+#map {
+  color: #62d62c;
+  font-size: 3.4rem;
+  position: relative;
+  right: 8.4rem;
+  width: 0;
+  top: 0.8rem;
+  cursor: pointer;
+}
+/*# sourceMappingURL=Body.css.map */
